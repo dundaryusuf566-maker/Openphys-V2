@@ -1,0 +1,7 @@
+torch
+numpy
+requests
+sympy
+pydantic
+matplotlib
+openai
