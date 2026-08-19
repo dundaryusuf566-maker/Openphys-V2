@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: openphys-v2
+Version: 2.0.0
+Summary: Symbolic AI-Driven Modular Physics Engine (PINN + C++ Zero-Copy)
+Author: OpenPhys Team
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: C++
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.0.0
+Requires-Dist: sympy>=1.12
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: matplotlib>=3.7.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: requests
+Dynamic: requires-python
