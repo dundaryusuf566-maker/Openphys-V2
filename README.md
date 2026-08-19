@@ -72,25 +72,31 @@ Bash
 ```bash
 # (Optional) Set Alien Intelligence API Key
 set ALIEN_API_KEY=your_key_here
-```
 # Run the execution pipeline
 python -m examples.demo_v2
+```
 📂 Project Structure
-Plaintext
-OpenPhys-V2/
-├── src/
-│   └── openphys/
-│       ├── openaire_agent_v2.py # OpenAIRE Graph API RAG & LLM Parser
-│       ├── solver_v2.py         # PyTorch PINN Adam/L-BFGS Solver Loop
-│       ├── mesh_v2.py           # Dynamic Mesh & Normal Generator
-│       ├── pinn_v2.py           # Dynamic MLP Neural Network
-│       ├── sympy_bridge_v2.py   # SymPy to PyTorch Autograd Translation
-│       ├── visualizer_v2.py    # Matplotlib Contour & ParaView VTK Exporter
-│       └── schemas_v2.py       # Pydantic Schemas (ProblemSpecV2)
-├── examples/
-│   └── demo_v2.py               # End-to-end execution script
-├── requirements.txt             # Python dependencies
-├── CMakeLists.txt              # C++ Pybind11 build specification
-└── README.md
+  1-src/openphys/openaire_agent_v2.py: OpenAIRE Graph API RAG & LLM Parser
+
+  2-src/openphys/solver_v2.py: PyTorch PINN Adam/L-BFGS Solver Loop
+
+  3-src/openphys/mesh_v2.py: Dynamic Mesh & Normal Generator
+
+  4-src/openphys/pinn_v2.py: Dynamic MLP Neural Network
+
+  5-src/openphys/sympy_bridge_v2.py: SymPy to PyTorch Autograd Translation
+
+  6-src/openphys/visualizer_v2.py: Matplotlib Contour & ParaView VTK Exporter
+
+  7-src/openphys/schemas_v2.py: Pydantic Schemas (ProblemSpecV2)
+
+  8-examples/demo_v2.py: End-to-end execution script
+
+  9-requirements.txt: Python dependencies
+
+  10-CMakeLists.txt: C++ Pybind11 build specification
+
+  11-README.md: Project documentation
+
 📜 License
 Distributed under the MIT License. Written documentation and submission materials are available under CC-BY 4.0.
